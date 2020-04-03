@@ -16,6 +16,19 @@ rails new \
   CHANGE_THIS_TO_YOUR_RAILS_APP_NAME
 ```
 
+## Minimal with Rspec
+
+Complient with Heroku, Bootstrap, Simple form, debugging and rspec for testing.
+
+```bash
+rails new \
+  --T \
+  --database postgresql \
+  --webpack \
+  -m https://raw.githubusercontent.com/kevkev300/rails-templates/master/minimal_rspec.rb \
+  CHANGE_THIS_TO_YOUR_RAILS_APP_NAME
+```
+
 ## Devise
 
 Complient with Heroku, Device, Bootstrap, Simple form, debugging.
